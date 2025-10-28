@@ -1,7 +1,6 @@
 import { useState } from "react";
-import { HashLink as Link } from 'react-router-hash-link';
 import { FaBars, FaTimes } from "react-icons/fa";
-import { BiSolidCog, BiSolidDashboard, BiSolidDetail, BiSolidReport, BiGroup, BiUser, BiUserPlus, BiLockAlt, BiTable, BiBox, BiBell,  } from "react-icons/bi";
+import { BiSolidCog, BiSolidDashboard,  BiGroup, BiUser, BiUserPlus, BiLockAlt, BiBox, BiBell,  } from "react-icons/bi";
 
 
 const Sidebar = () => {
