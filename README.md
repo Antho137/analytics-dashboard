@@ -25,8 +25,8 @@
 
 ## Links
 
-- Solution URL: https://github.com/Antho137/admin-dashboard
-- Live Site URL: https://antho137.github.io/admin-dashboard/
+- Solution URL: https://github.com/Antho137/analytics-dashboard
+- Live Site URL: https://antho137.github.io/analytics-dashboard/
 
 ## Author
 
