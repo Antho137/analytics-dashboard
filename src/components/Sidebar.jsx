@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { BiSolidCog, BiSolidDashboard,  BiGroup, BiUser, BiUserPlus, BiLockAlt, BiBox, BiBell,  } from "react-icons/bi";
 
@@ -29,68 +30,35 @@ const Sidebar = () => {
             <ul className='hidden text-sm lg:pt-2 xl:text-lg lg:flex lg:flex-col lg:justify-start lg:items-start gap-4 px-4 font-light'>
                 <li className='flex justify-start items-center gap-1 text-left'>
                     <BiSolidDashboard />
-                    <Link smooth 
-                        to="/#" 
-                    >
-                        Dashboard
-                    </Link>
+                    <Link to="/">Dashboard</Link>
                 </li>
                 <li className='flex justify-start items-center gap-1'>
                     <BiGroup />
-                    <Link smooth 
-                        to="/" 
-                    >
-                        Customers
-                    </Link>
+                    <Link to="/">Customers</Link>
                 </li>
                 <li className='flex justify-start items-center gap-1'>
                     <BiBox />
-                    <Link smooth 
-                        to="/" 
-                    >
-                        Products
-                    </Link>
+                    <Link to="/">Products</Link>
                 </li>
                 <li className='flex justify-start items-center gap-1'>
                     <BiUser />
-                    <Link smooth 
-                        to="/" 
-                    >
-                        Account
-                    </Link>
+                    <Link to="/">Account</Link>
                 </li>
                 <li className='flex justify-start items-center gap-1'>
                     <BiLockAlt />
-                    <Link smooth 
-                        to="/" 
-                    >
-                        Login
-                    </Link>
+                    <Link to="/">Login</Link>
                 </li>
                 <li className='flex justify-start items-center gap-1'>
                     <BiUserPlus />
-                    <Link smooth 
-                        to="/" 
-                    >
-                        Register
-                    </Link>
+                    <Link to="/">Register</Link>
                 </li>
                 <li className='flex justify-start items-center gap-1'>
                     <BiBell />
-                    <Link smooth 
-                        to="/" 
-                    >
-                        Notifications
-                    </Link>
+                    <Link to="/">Notifications</Link>
                 </li>
                 <li className='flex justify-start items-center gap-1'>
                     <BiSolidCog />
-                    <Link smooth 
-                        to="/" 
-                        className="px-2"
-                    >
-                        Settings
-                    </Link>
+                    <Link to="/">Settings</Link>
                 </li>
             </ul>
         </div>
@@ -98,68 +66,35 @@ const Sidebar = () => {
             <ul className="bg-blue-300 text-blue-900 text-sm pb-5 px-5 py-2 flex flex-col justify-start items-start gap-5 lg:hidden menuOpen">
                 <li className='flex justify-start items-center gap-1 my-1'>
                     <BiSolidDashboard className="text-blue-900" />
-                    <Link smooth 
-                        to="/#"
-                    >
-                        Dashboard
-                    </Link>
+                    <Link to="/">Dashboard</Link>
                 </li>
                 <li className='flex justify-start items-center gap-1'>
                     <BiGroup />
-                    <Link smooth 
-                        to="/" 
-                    >
-                        Customers
-                    </Link>
+                    <Link to="/">Customers</Link>
                 </li>
                 <li className='flex justify-start items-center gap-1'>
                     <BiBox />
-                    <Link smooth 
-                        to="/" 
-                    >
-                        Products
-                    </Link>
+                    <Link to="/">Products</Link>
                 </li>
                 <li className='flex justify-start items-center gap-1'>
                     <BiUser />
-                    <Link smooth 
-                        to="/" 
-                    >
-                        Account
-                    </Link>
+                    <Link to="/">Account</Link>
                 </li>
                 <li className='flex justify-start items-center gap-1'>
                     <BiLockAlt />
-                    <Link smooth 
-                        to="/" 
-                    >
-                        Login
-                    </Link>
+                    <Link to="/">Login</Link>
                 </li>
                 <li className='flex justify-start items-center gap-1'>
                     <BiUserPlus />
-                    <Link smooth 
-                        to="/" 
-                    >
-                        Register
-                    </Link>
+                    <Link to="/">Register</Link>
                 </li>
                 <li className='flex justify-start items-center gap-1'>
                     <BiBell />
-                    <Link smooth 
-                        to="/" 
-                    >
-                        Notifications
-                    </Link>
+                    <Link to="/">Notifications</Link>
                 </li>
                 <li className='flex justify-start items-center gap-1'>
                     <BiSolidCog />
-                    <Link smooth 
-                        to="/" 
-                        className="px-2"
-                    >
-                        Settings
-                    </Link>
+                    <Link to="/">Settings</Link>
                 </li>
             </ul>
       ) : null}

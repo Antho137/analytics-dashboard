@@ -6,13 +6,11 @@ import Dashboard from './pages/Dashboard';
 function App() {
   return (
     <BrowserRouter basename="/analytics-dashboard/">
-      <div>
-        <Sidebar />
-        <Header />
-        <Routes>
-          <Route path="/" element={<Dashboard />} />
-        </Routes>
-      </div>
+      <Sidebar />
+      <Header />
+      <Routes>
+        <Route path="/" element={<Dashboard />} />
+      </Routes>
     </BrowserRouter>
   )
 }
